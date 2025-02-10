@@ -30,13 +30,19 @@ Your band name could be New York Buddy
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/aditya-kr86/band-name-generator.git
+   git clone --depth 1 --filter=blob:none --sparse https://github.com/aditya-kr86/my_100_days_of_python_jouney.git
+   cd my_100_days_of_python_jouney
+   git sparse-checkout set "Minor Projects/Day-1 Band Name Generator"
    ```
-2. Navigate to the project directory:
+2. Navigate to the Minor projects directory:
    ```bash
-   cd band-name-generator
+   cd Minor\ Projects/
    ```
-3. Run the script:
+3. Navigate to the Day-1 Band Name Generator directory:
+   ```bash
+   cd Day-1\ Band\ Name\ Generator/
+   ```
+4. Run the script:
    ```bash
    python band_name_generator.py
    ```
