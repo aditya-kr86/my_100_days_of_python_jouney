@@ -30,21 +30,6 @@ Each person should pay: ₹336.00
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/aditya-kr86/tip-calculator
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd tip-calculator
-   ```
-3. Run the script:
-   ```bash
-   python tip_calculator.py
-   ```
-
-### How to Run
-
-1. Clone this repository:
-   ```bash
    git clone --depth 1 --filter=blob:none --sparse https://github.com/aditya-kr86/my_100_days_of_python_jouney.git
    cd my_100_days_of_python_jouney
    git sparse-checkout set "Minor Projects/Day-2 Tip Calculator"
