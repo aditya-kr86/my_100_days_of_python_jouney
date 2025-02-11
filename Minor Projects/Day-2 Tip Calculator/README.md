@@ -41,6 +41,27 @@ Each person should pay: ₹336.00
    python tip_calculator.py
    ```
 
+### How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone --depth 1 --filter=blob:none --sparse https://github.com/aditya-kr86/my_100_days_of_python_jouney.git
+   cd my_100_days_of_python_jouney
+   git sparse-checkout set "Minor Projects/Day-2 Tip Calculator"
+   ```
+2. Navigate to the Minor projects directory:
+   ```bash
+   cd Minor\ Projects/
+   ```
+3. Navigate to the Day-1 Band Name Generator directory:
+   ```bash
+   cd Day-2\ Tip\ Calculator/
+   ```
+4. Run the script:
+   ```bash
+   python tip_calculator.py
+   ```
+
 ## 📦 Features
 
 - Simple and user-friendly interface
